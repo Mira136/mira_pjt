@@ -6,9 +6,15 @@ namespace mira_pjt
     {
         static void Swap(ref int a, ref int b) // a and b both are local variable
         {
-            int temp = a;
+            /* int temp = a;
             a = b;
-            b = temp;
+            b = temp; */
+
+            // Write another logic
+            // a = 20,  b = 10
+            a = a + b; // 30
+            b = a - b;
+            a = a - b;
         }
 
         static void Main(string[] args)
@@ -21,4 +27,6 @@ namespace mira_pjt
         }
     }
 }
+
+
 
