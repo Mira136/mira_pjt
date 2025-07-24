@@ -27,6 +27,3 @@ namespace mira_pjt
         }
     }
 }
-
-
-
