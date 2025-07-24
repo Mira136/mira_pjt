@@ -4,7 +4,7 @@ namespace mira_pjt
 {
     class OutDemo
     {
-        static void Change(ref int a, ref int b) // a and b both are local variable
+        static void Change(ref int a, ref int b) 
         {
             a = 100;
             b = 200;
@@ -12,8 +12,9 @@ namespace mira_pjt
 
         static void Update(out int x, out int y)
         {
-            x = 100;
-            y = 200;
+            int t = x;
+            x = 100; // 1st
+            y = 200; // 2nd
         }
 
         static void Main(string[] args)
@@ -26,7 +27,7 @@ namespace mira_pjt
             Console.WriteLine("After swap : a = {0} and b = {1}", a, b);
 
             Console.WriteLine("Before update : a = {0} and b = {1}", x, y);
-            Update(out x, out y);
+            Update(out x, out y); // 1st and 2nd
             Console.WriteLine("After update : a = {0} and b = {1}", x, y);
         }
     }
