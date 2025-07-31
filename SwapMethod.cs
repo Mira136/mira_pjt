@@ -12,7 +12,7 @@ namespace mira_pjt
         /// used to share % value
         /// </summary>
          
-        int a;
+        //int a;
 
         /// <summary>
         /// This method is used to swap values of two variables
