@@ -2,10 +2,27 @@
 
 namespace mira_pjt
 {
+    /// <summary>
+    /// This class includes important methods
+    /// </summary>
+    
     class SwapMethod
     {
+        /// <summary>
+        /// used to share % value
+        /// </summary>
+         
+        int a;
+
+        /// <summary>
+        /// This method is used to swap values of two variables
+        /// </summary>
+        /// <param name="a"
+        /// <param name="b"
+
         static void Swap(ref int a, ref int b) // a and b both are local variable
         {
+
             /* int temp = a;
             a = b;
             b = temp; */
